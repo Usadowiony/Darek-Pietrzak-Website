@@ -33,6 +33,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <p align="left">
 📪 wojciechpietrzak2003@gmail.com
+<br />
 <a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="14" src="src/img/github/linkedin.svg"/>Linkedin</a>
 </p>
 
