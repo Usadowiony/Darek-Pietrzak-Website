@@ -1,10 +1,5 @@
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <br />
 <div align="center">
     <img src="src/img/github/darek_logo-github.png" alt="Darek Pietrzak Logo" width="300" height="80">
@@ -18,21 +13,19 @@
 
 ## 📝 About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://darekpietrzak.online/)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 ## 🧰 Built With
 
 <p align="center">
-<img width="50" src="src/img/github/html5.svg"/>
-<img width="50" src="src/img/github/css3.svg"/>
-<img width="50" src="src/img/github/javascript.svg"/>
-<img width="50" src="src/img/github/sass.svg"/>
-<img width="50" src="src/img/github/gsap-greensock.svg"/>
+<img width="60" src="src/img/github/html5.svg"/>
+<img width="60" src="src/img/github/css3.svg"/>
+<img width="60" src="src/img/github/javascript.svg"/>
+<img width="60" src="src/img/github/sass.svg"/>
+<img width="60" src="src/img/github/gsap-greensock.svg"/>
 </p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🗝 License
 
