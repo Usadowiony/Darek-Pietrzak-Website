@@ -20,11 +20,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ## 🧰 Built With
 
 <p align="center">
-<img width="60" src="src/img/github/html5.svg"/>
-<img width="60" src="src/img/github/css3.svg"/>
-<img width="60" src="src/img/github/javascript.svg"/>
-<img width="60" src="src/img/github/sass.svg"/>
-<img width="60" src="src/img/github/gsap-greensock.svg"/>
+<img height="60" src="src/img/github/html5.svg"/>
+<img height="60" src="src/img/github/css3.svg"/>
+<img height="60" src="src/img/github/javascript.svg"/>
+<img height="40" src="src/img/github/sass.svg"/>
+<img height="60" src="src/img/github/gsap-greensock.svg"/>
 </p>
 
 ## 🗝 License
