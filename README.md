@@ -24,6 +24,7 @@ Thanks to this project I learned how to make great animations thanks to <a href=
 
 ## 🧰 Built With
 
+<br />
 <p align="center">
 <img height="60" src="src/img/github/html5.svg"/>
 <img height="60" src="src/img/github/css3.svg"/>
