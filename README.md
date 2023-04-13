@@ -33,7 +33,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <p align="left">
 📪 wojciechpietrzak2003@gmail.com
-<a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="10" src="src/img/github/linkedin.svg"/>Linkedin</a>
+<a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="14" src="src/img/github/linkedin.svg"/>Linkedin</a>
 </p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
