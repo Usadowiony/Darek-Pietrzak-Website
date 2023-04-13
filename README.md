@@ -17,7 +17,10 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://darekpietrzak.online/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The site is entirely made by me. Like any project, I started my work by drawing a initial template. I must admit that later it became quite chaotic because I did not design this page precisely, for example in <a href="https://www.figma.com/">Figma</a> as I do now 😅
+During the code writing, many times I improved the final appearance of the website until finally I was satisfied with the final result.
+
+Thanks to this project I learned how to make great animations thanks to <a href="https://greensock.com/gsap/">gsap</a>, and I got to know <a href="https://lenis.studiofreight.com/">Lenis</a> smooth scroll. During the development process, the biggest problem was writing responsive code. I finally managed to overcome this difficulty and I am very happy that I have taken up the fight against this problem because I have learned a great lesson for the future.
 
 ## 🧰 Built With
 
@@ -32,9 +35,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ## 💼 Contact
 
 <p align="left">
-📪 wojciechpietrzak2003@gmail.com
+📪 Email - wojciechpietrzak2003@gmail.com
 <br />
-<a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="13" src="src/img/github/linkedin.svg"/>Linkedin</a> - Wojciech Pietrzak
+<a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="13" src="src/img/github/linkedin.svg"/> Linkedin - Wojciech Pietrzak</a>
 </p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
