@@ -5,7 +5,7 @@
     <img src="src/img/github/darek_logo-github.png" alt="Darek Pietrzak Logo" width="300" height="80">
 
   <p align="center">
-    project_description
+    This is a simple website, created for my brother, who started his adventure as a personal trainer. I wanted to create a project that would benefit both of us. So I came up with the idea of creating a website that will be his personal business card, and I will put it in my portfolio 😄
     <br />
     <a href="https://darekpietrzak.online/">View Demo</a>
   </p>
@@ -26,10 +26,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <img height="40" src="src/img/github/sass.svg"/>
 <img height="60" src="src/img/github/gsap-greensock.svg"/>
 </p>
-
-## 🗝 License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 💼 Contact
 
