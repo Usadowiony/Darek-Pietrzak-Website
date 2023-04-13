@@ -7,6 +7,8 @@
   <p align="center">
     This is a simple website, created for my brother, who started his adventure as a personal trainer. I wanted to create a project that would benefit both of us. So I came up with the idea of creating a website that will be his personal business card, and I will put it in my portfolio 😄
     <br />
+    ---
+    <br />
     <a href="https://darekpietrzak.online/">View Demo</a>
   </p>
 </div>
@@ -30,6 +32,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ## 💼 Contact
 
 Wojciech Pietrzak - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+<a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="30" src="src/img/github/linkedin.svg"/>Linkedin</a>
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
