@@ -1,0 +1,471 @@
+.contact {
+	position: relative;
+	background-color: $dark2;
+	color: $white;
+	padding: 100px 280px;
+	&__h1 {
+		font-size: 3em;
+		margin-bottom: 0px;
+		font-weight: 500;
+	}
+	&__h2 {
+		margin-bottom: 40px;
+		font-size: 1em;
+		color: darken($white, 10%);
+		font-weight: 300;
+		&--orange {
+			color: $orange;
+			&:hover {
+				color: lighten($orange, 8%);
+			}
+		}
+	}
+	&__form {
+		width: 45%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 20px;
+		row-gap: 14px;
+	}
+	&__input-wrap {
+		position: relative;
+		&--left {
+			grid-column: span 2;
+		}
+		&.focus {
+			.contact__input {
+				border: 2px solid $orange;
+				box-shadow: 0 0 0 5px lighten($dark2, 3%);
+				background-color: $dark2;
+			}
+			.contact__label {
+				color: $orange;
+			}
+			.contact__i {
+				color: $orange;
+			}
+		}
+		&.not-empty {
+			.contact__label {
+				font-size: 0.66em;
+				top: 0.75rem;
+				transform: translateY(-2px);
+			}
+		}
+	}
+	&__label {
+		position: absolute;
+		top: 50%;
+		left: calc(1.35rem + 2px);
+		transform: translateY(-50%);
+		color: lighten($dark, 30%);
+		z-index: 1;
+		pointer-events: none;
+		transition: 0.3s;
+		&--text-area {
+			top: 1.2rem;
+			transform: none;
+		}
+	}
+	&__i {
+		position: absolute;
+		top: 50%;
+		right: calc(1.35rem + 2px);
+		transform: translateY(-50%);
+		color: lighten($dark, 30%);
+		font-size: 1.25em;
+		pointer-events: none;
+		transition: 0.3s;
+		&--text-area {
+			top: 1.3rem;
+			transform: none;
+		}
+	}
+	&__input {
+		width: 100%;
+		border: none;
+		background-color: lighten($dark2, 3%);
+		outline: none;
+		padding: 1.5rem 1.35rem calc(0.75rem - 2px) 1.35rem;
+		color: $white;
+		font-family: $font1;
+		font-weight: 500;
+		border-radius: 20px;
+		font-size: 0.9em;
+		transition: background-color 0.3s;
+		&:hover {
+			background-color: lighten($dark2, 4%);
+		}
+		&--text-area {
+			overflow-y: scroll;
+			resize: none;
+			width: 100%;
+			padding-right: 35px;
+			min-height: 200px;
+			/////////
+			&::-webkit-scrollbar {
+				width: 0.35vw;
+				&-track {
+					background-color: rgba(0, 0, 0, 0);
+					margin-block: 1em;
+				}
+				&-thumb {
+					background-color: $orange;
+					border-radius: 1300px;
+					&:hover {
+						background-color: lighten($orange, 10%);
+					}
+				}
+			}
+		}
+		border: 2px solid transparent;
+		box-shadow: 0 0 0 5px $dark2;
+	}
+	&__buttons {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 1rem;
+		margin-top: 1rem;
+		width: 100%;
+		grid-column: span 2;
+	}
+	&__btn {
+		display: inline-block;
+		padding: 1.1rem 2rem;
+		background-color: $orange;
+		color: $white;
+		border-radius: 40px;
+		border: none;
+		font-family: $font2;
+		font-weight: 600;
+		font-size: 1em;
+		cursor: pointer;
+		transition: 0.3s;
+		&:hover {
+			background-color: lighten($orange, 8%);
+		}
+		&--upload {
+			position: relative;
+			background-color: lighten($dark2, 3%);
+			color: lighten($dark, 18%);
+			text-align: center;
+			&:hover {
+				background-color: lighten($dark2, 4%);
+				color: $white;
+			}
+			input {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				cursor: pointer;
+				opacity: 0;
+				border-radius: 40px;
+			}
+		}
+	}
+	&__img {
+		position: absolute;
+		width: 480px;
+		bottom: 0;
+		right: 9%;
+	}
+	@media (max-width: 1750px) {
+		padding: 100px 180px;
+		&__form {
+			width: 45%;
+		}
+		&__img {
+			width: 470px;
+			right: 12%;
+		}
+	}
+	@media (max-width: 1450px) {
+		padding: 100px 100px;
+		&__form {
+			width: 50%;
+			column-gap: 16px;
+			row-gap: 10px;
+		}
+		&__img {
+			width: 420px;
+			right: 8%;
+		}
+	}
+	@media (max-width: 1100px) {
+		padding: 100px 60px;
+		&__form {
+			width: 55%;
+			column-gap: 12px;
+			row-gap: 8px;
+		}
+		&__img {
+			width: 400px;
+			right: 4%;
+		}
+	}
+	@include lg {
+		padding: 100px 16%;
+		&__img {
+			display: none;
+		}
+		&__form {
+			width: 100%;
+			column-gap: 16px;
+			row-gap: 10px;
+		}
+		&__form-wrapper {
+			display: grid;
+			justify-items: center;
+		}
+		&__h1 {
+			font-size: 2.8em;
+		}
+		&__h2 {
+			margin-bottom: 30px;
+			font-size: 0.9em;
+		}
+	}
+	@include md {
+		padding: 100px 10%;
+	}
+	@media (max-width: 535px) {
+		&__h1 {
+			transform: translateY(-8px);
+			font-size: 2.6em;
+		}
+		&__h2 {
+			transform: translateY(-8px);
+			margin-bottom: 30px;
+			font-size: 0.8em;
+		}
+		&__input-wrap {
+			grid-column: span 2;
+		}
+		&__btn {
+			font-size: 0.9em;
+			padding: 1.1rem 1.6rem;
+		}
+	}
+	@media (max-width: 470px) {
+		padding: 60px 6% 20px 6%;
+		&__h1 {
+			font-size: 2.2em;
+			transform: translateY(0);
+		}
+		&__h2 {
+			transform: translateY(0);
+		}
+		&__input-wrap {
+			grid-column: span 2;
+		}
+		&__buttons {
+			grid-template-columns: 1fr;
+			row-gap: 12px;
+		}
+		&__btn {
+			font-size: 0.9em;
+			padding: 1.1rem 1.6rem;
+		}
+	}
+	@media (max-width: 340px) {
+		padding: 20px 6%;
+		&__h1 {
+			font-size: 2.1em;
+		}
+		&__h2 {
+			font-size: 0.7em;
+		}
+	}
+	@media (min-width: 2048px) {
+		padding: 120px 320px;
+		&__h1 {
+			font-size: 4em;
+		}
+		&__h2 {
+			font-size: 1.3em;
+		}
+		&__form {
+			width: 50%;
+		}
+		&__input-wrap {
+			&.not-empty {
+				.contact__label {
+					font-size: 0.66em;
+					top: 0.75rem;
+					transform: translateY(-2px);
+				}
+			}
+		}
+		&__label {
+			left: calc(1.35rem + 2px);
+			&--text-area {
+				top: 1.6rem;
+			}
+			font-size: 1.1em;
+		}
+		&__i {
+			right: calc(1.4rem + 2px);
+			font-size: 1.4em;
+			&--text-area {
+				top: 1.3rem;
+			}
+		}
+		&__input {
+			padding: 1.5rem 1.35rem calc(0.75rem - 2px) 1.35rem;
+			font-size: 1.2em;
+			&--text-area {
+				width: 100%;
+				padding-right: 50px;
+				min-height: 260px;
+				/////////
+				&::-webkit-scrollbar {
+					width: 0.4vw;
+					&-track {
+						background-color: rgba(0, 0, 0, 0);
+						margin-block: 1.2em;
+					}
+					&-thumb {
+						background-color: $orange;
+						border-radius: 1500px;
+					}
+				}
+			}
+		}
+		&__btn {
+			padding: 1.3rem 2.6rem;
+			border-radius: 40px;
+			font-size: 1.2em;
+		}
+		&__img {
+			width: 570px;
+		}
+	}
+	@media (min-width: 2560px) {
+		padding: 200px 440px;
+		&__h1 {
+			font-size: 5.2em;
+			line-height: 115%;
+		}
+		&__h2 {
+			font-size: 1.6em;
+			margin-left: 2px;
+		}
+		&__form {
+			width: 55%;
+		}
+		&__input-wrap {
+			&.focus {
+				.contact__input {
+					border: 3px solid $orange;
+				}
+			}
+			&.not-empty {
+				.contact__label {
+					font-size: 1em;
+					top: 0.75rem;
+					transform: translateY(-2px);
+				}
+			}
+		}
+		&__label {
+			left: calc(1.8rem + 2px);
+			&--text-area {
+				top: 1.6rem;
+			}
+			font-size: 1.4em;
+		}
+		&__i {
+			right: calc(2rem + 2px);
+			font-size: 1.6em;
+			&--text-area {
+				top: 1.3rem;
+			}
+		}
+		&__input {
+			padding: 1.8rem 2rem calc(0.9rem - 2px) 2rem;
+			border-radius: 30px;
+			border: 3px solid transparent;
+			font-size: 1.5em;
+			&--text-area {
+				width: 100%;
+				padding-right: 50px;
+				min-height: 360px;
+			}
+		}
+		&__btn {
+			padding: 1.4rem 3rem;
+			border-radius: 50px;
+			font-size: 1.6em;
+		}
+		&__img {
+			width: 720px;
+			right: 11%;
+		}
+	}
+	@media (min-width: 3840px) {
+		padding: 280px 19vw;
+		&__h1 {
+			font-size: 8em;
+			line-height: 120%;
+		}
+		&__h2 {
+			font-size: 2.3em;
+			margin-left: 8px;
+		}
+		&__form {
+			width: 60%;
+			column-gap: 24px;
+			row-gap: 20px;
+		}
+		&__input-wrap {
+			&.focus {
+				.contact__input {
+					border: 5px solid $orange;
+				}
+			}
+			&.not-empty {
+				.contact__label {
+					font-size: 1.6em;
+					top: 0.9rem;
+					transform: translateY(-2px);
+				}
+			}
+		}
+		&__label {
+			left: calc(3rem + 2px);
+			&--text-area {
+				top: 2.4rem;
+			}
+			font-size: 2.2em;
+		}
+		&__i {
+			right: calc(3rem + 2px);
+			font-size: 2.2em;
+			&--text-area {
+				top: 2rem;
+			}
+		}
+		&__input {
+			padding: 2.4rem 3rem calc(1.2rem - 2px) 3rem;
+			border-radius: 40px;
+			border: 5px solid transparent;
+			font-size: 2.2em;
+			&--text-area {
+				width: 100%;
+				padding-right: 50px;
+				min-height: 640px;
+			}
+		}
+		&__btn {
+			padding: 1.9rem 3.8rem;
+			border-radius: 70px;
+			font-size: 2.4em;
+		}
+		&__img {
+			width: 1100px;
+			right: 11%;
+		}
+	}
+}

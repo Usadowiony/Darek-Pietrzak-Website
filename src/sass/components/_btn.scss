@@ -1,0 +1,42 @@
+.btn {
+	background: none;
+	border: 2px solid $white;
+	border-radius: 20px;
+	color: $white;
+	font-family: $font2;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.4s;
+	&:hover {
+		border: 2px solid $orange;
+		color: $orange;
+		a {
+			color: $orange;
+		}
+	}
+	@media (hover: none) {
+		&:hover {
+			border: 2px solid $white;
+			color: $white;
+			a {
+				color: $white;
+			}
+		}
+	}
+	@media (min-width: 2048px) {
+		border: 3px solid $white;
+		border-radius: 30px;
+		&:hover {
+			border: 3px solid $orange;
+		}
+	}
+	@media (min-width: 3840px) {
+		border: 6px solid $white;
+		border-radius: 60px;
+		&:hover {
+			border: 6px solid $orange;
+		}
+	}
+}

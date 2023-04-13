@@ -1,0 +1,29 @@
+header,
+section {
+	scroll-snap-align: start;
+}
+html {
+	scrollbar-width: thin;
+	scrollbar-color: $orange rgba(0, 0, 0, 0);
+	&::-webkit-scrollbar {
+		width: 0.45vw;
+		&-track {
+			background-color: rgba(0, 0, 0, 0);
+		}
+		&-thumb {
+			background-color: $orange;
+			border-radius: 100px;
+			&:hover {
+				background-color: lighten($orange, 10%);
+			}
+		}
+	}
+}
+.lock {
+	width: calc(100% - 8px);
+	overflow-y: hidden;
+	max-height: 100vh;
+	@media (hover: none) {
+		width: 100%;
+	}
+}

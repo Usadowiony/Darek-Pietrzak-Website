@@ -1,0 +1,51 @@
+.footer {
+	position: relative;
+	height: 8vh;
+	background-color: $dark;
+	&__copy {
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		font-family: $font1;
+		font-size: 1em;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-weight: 200;
+		color: $white;
+		span {
+			color: $orange;
+			font-family: $font2;
+			font-weight: 400;
+		}
+	}
+	@include md {
+		&__copy {
+			position: absolute;
+			font-family: $font1;
+			font-size: 0.9em;
+		}
+	}
+	@include sm {
+		&__copy {
+			position: absolute;
+			font-family: $font1;
+			font-size: 0.8em;
+		}
+	}
+	@media (min-width: 2048px) {
+		&__copy {
+			font-size: 1.2em;
+		}
+	}
+	@media (min-width: 2560px) {
+		&__copy {
+			font-size: 1.4em;
+		}
+	}
+	@media (min-width: 3840px) {
+		&__copy {
+			font-size: 2.2em;
+		}
+	}
+}

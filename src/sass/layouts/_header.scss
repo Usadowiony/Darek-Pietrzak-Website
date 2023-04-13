@@ -1,0 +1,293 @@
+.header {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-image: url("../img/header__bg.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+	&__overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		backdrop-filter: blur(2px);
+		background-color: rgba(0, 0, 0, 0.26);
+		opacity: 1;
+	}
+	&__slogan-wrapper {
+		width: 640px;
+		margin-left: 160px;
+		padding: 20px;
+		color: $white;
+	}
+	&__h1 {
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 1px;
+		font-size: 2.6em;
+		&--orange {
+			color: $orange;
+		}
+	}
+	&__h2 {
+		margin-top: 8px;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+	&__h3 {
+		font-family: $font2;
+		text-transform: uppercase;
+		font-weight: 300;
+		letter-spacing: 0px;
+		font-size: 1.2em;
+		border-left: 3px solid $orange;
+		padding-left: 10px;
+		line-height: 115%;
+	}
+	&__btn {
+		position: absolute;
+		bottom: clamp(5vh, 20vh, 190px);
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		padding: 8px 20px;
+		a {
+			color: $white;
+		}
+		&--click {
+			animation: clickBtn 0.6s linear;
+		}
+	}
+	@include xxl {
+		&__slogan-wrapper {
+			width: 560px;
+			margin-left: 120px;
+		}
+		&__h1 {
+			letter-spacing: 2px;
+			font-size: 2.2em;
+		}
+		&__h2 {
+			margin-top: 8px;
+			font-size: 1em;
+		}
+		&__h3 {
+			font-size: 1.1em;
+			border-left: 2px solid $orange;
+			padding-left: 8px;
+		}
+	}
+	@include xl {
+		&__slogan-wrapper {
+			width: 500px;
+			margin-left: 80px;
+			padding: 16px;
+		}
+		&__h1 {
+			font-size: 2em;
+		}
+		&__h2 {
+			margin-top: 6px;
+			font-size: 0.9em;
+		}
+		&__h3 {
+			font-size: 1em;
+			border-left: 2px solid $orange;
+			padding-left: 6px;
+		}
+	}
+	@include lg {
+		align-items: center;
+		&__slogan-wrapper {
+			margin-left: 0px;
+		}
+		&__h2 {
+			margin-top: 12px;
+		}
+		&__btn {
+			bottom: 25vh;
+		}
+	}
+	@include md {
+		&__slogan-wrapper {
+			width: 440px;
+		}
+		&__h1 {
+			font-size: 1.8em;
+		}
+		&__h2 {
+			margin-top: 14px;
+		}
+	}
+	@include sm {
+		&__slogan-wrapper {
+			width: 320px;
+			padding: 0;
+		}
+		&__h1 {
+			letter-spacing: 0px;
+			font-size: 1.5em;
+		}
+		&__h2 {
+			margin-top: 14px;
+		}
+		&__h3 {
+			padding-left: 4px;
+		}
+	}
+	@media (max-height: 760px) and (orientation: landscape) {
+		&__btn {
+			bottom: 20vh;
+		}
+	}
+	@media (max-height: 630px) and (orientation: landscape) {
+		&__btn {
+			bottom: 18vh;
+		}
+	}
+	@media (max-height: 480px) and (orientation: landscape) {
+		&__slogan-wrapper {
+			width: 510px;
+		}
+		&__h1 {
+			font-size: 1.4em;
+		}
+		&__h2 {
+			margin-top: 3px;
+			font-size: 0.9em;
+			margin-bottom: 40px;
+		}
+		&__h3 {
+			font-size: 1em;
+			border-left: 2px solid $orange;
+			padding-left: 4px;
+		}
+		&__btn {
+			bottom: 16vh;
+			width: 180px;
+			font-size: 0.7em;
+		}
+	}
+	@media (max-height: 380px) and (orientation: landscape) {
+		&__slogan-wrapper {
+			width: 510px;
+		}
+		&__h1 {
+			font-size: 1.2em;
+		}
+		&__h2 {
+			font-size: 0.8em;
+			margin-bottom: 25px;
+		}
+		&__h3 {
+			font-size: 0.9em;
+			border-left: 2px solid $orange;
+			line-height: 110%;
+			padding-left: 3px;
+		}
+		&__btn {
+			bottom: 17vh;
+		}
+	}
+	@media (min-width: 2048px) {
+		&__slogan-wrapper {
+			width: 730px;
+			margin-left: 220px;
+			padding: 10px;
+		}
+		&__h1 {
+			font-size: 3.2em;
+		}
+		&__h2 {
+			font-size: 1.3em;
+			margin-bottom: 25px;
+		}
+		&__h3 {
+			font-size: 1.6em;
+			border-left: 4px solid $orange;
+			line-height: 120%;
+			padding-left: 10px;
+		}
+		&__btn {
+			bottom: 20vh;
+			width: 280px;
+			padding: 10px 12px;
+			font-size: 1.1em;
+		}
+	}
+	@media (min-width: 2560px) {
+		&__slogan-wrapper {
+			width: 860px;
+			margin-left: 300px;
+			padding: 10px;
+		}
+		&__h1 {
+			letter-spacing: 0px;
+			font-size: 3.8em;
+		}
+		&__h2 {
+			font-size: 1.6em;
+			margin-bottom: 25px;
+		}
+		&__h3 {
+			letter-spacing: 1px;
+			font-size: 1.9em;
+			border-left: 4px solid $orange;
+			line-height: 110%;
+			padding-left: 10px;
+		}
+		&__btn {
+			bottom: 24vh;
+			width: 320px;
+			padding: 11px 13px;
+			font-size: 1.4em;
+		}
+	}
+	@media (min-width: 3840px) {
+		&__slogan-wrapper {
+			width: 1400px;
+			margin-left: 480px;
+			padding: 11px;
+		}
+		&__h1 {
+			font-size: 6em;
+		}
+		&__h2 {
+			font-size: 2.6em;
+			margin-bottom: 25px;
+			line-height: 145%;
+		}
+		&__h3 {
+			letter-spacing: 1px;
+			font-size: 2.4em;
+			border-left: 7px solid $orange;
+			line-height: 120%;
+			padding-left: 11px;
+		}
+		&__btn {
+			bottom: 24vh;
+			width: 520px;
+			padding: 16px 20px;
+			font-size: 2em;
+		}
+	}
+}
+@keyframes clickBtn {
+	0% {
+		border: 2px solid $white;
+		color: $white;
+	}
+	20% {
+		color: $orange;
+		border: 2px solid $orange;
+	}
+	100% {
+		color: $white;
+		border: 2px solid $white;
+	}
+}
