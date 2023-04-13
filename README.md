@@ -31,8 +31,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## 💼 Contact
 
-Wojciech Pietrzak - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-<a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="30" src="src/img/github/linkedin.svg"/>Linkedin</a>
+<p align="left">
+📪 wojciechpietrzak2003@gmail.com
+<a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="10" src="src/img/github/linkedin.svg"/>Linkedin</a>
+</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
