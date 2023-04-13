@@ -50,4 +50,4 @@ Wojciech Pietrzak - [@twitter_handle](https://twitter.com/twitter_handle) - emai
 [stars-url]: https://github.com/github_username/repo_name/stargazers
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/wojciech-pietrzak-238a25262/
-[product-screenshot]: src/img/github/website-bg.png
+[product-screenshot]: src/img/github/website_bg.png
