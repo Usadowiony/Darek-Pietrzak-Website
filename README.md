@@ -20,7 +20,7 @@
 The site is entirely made by me. Like any project, I started my work by drawing a initial template. I must admit that later it became quite chaotic because I did not design this page precisely, for example in <a href="https://www.figma.com/">Figma</a> as I do now 😅
 During the code writing, many times I improved the final appearance of the website until finally I was satisfied with the final result.
 
-Thanks to this project I learned how to make great animations thanks to <a href="https://greensock.com/gsap/">gsap</a>, and I got to know <a href="https://lenis.studiofreight.com/">Lenis</a> smooth scroll. During the development process, the biggest problem was writing responsive code. I finally managed to overcome this difficulty and I am very happy that I have taken up the fight against this problem because I have learned a great lesson for the future.
+Thanks to this project I learned how to make great animations thanks to <a href="https://greensock.com/gsap/">gsap</a>, and I got to know <a href="https://lenis.studiofreight.com/">Lenis</a> smooth scroll. During the development process, the biggest problem was writing responsive code. I finally managed to overcome this difficulty and I am very happy that I have taken up the fight against this problem because I have learned a great lesson for the future 💪
 
 ## 🧰 Built With
 
