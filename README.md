@@ -36,7 +36,6 @@ Thanks to this project I learned how to make great animations thanks to <a href=
 ## 💼 Contact
 
 <p align="left">
-📪 Email - wojciechpietrzak2003@gmail.com
 <br />
 <a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="13" src="src/img/github/linkedin.svg"/> Linkedin - Wojciech Pietrzak</a>
 </p>
