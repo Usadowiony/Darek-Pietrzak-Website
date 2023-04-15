@@ -13,11 +13,8 @@
 		font-size: 1em;
 		color: darken($white, 10%);
 		font-weight: 300;
-		&--orange {
+		span {
 			color: $orange;
-			&:hover {
-				color: lighten($orange, 8%);
-			}
 		}
 	}
 	&__form {
