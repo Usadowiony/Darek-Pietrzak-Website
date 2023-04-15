@@ -44,16 +44,6 @@ if (window.innerWidth < 769) {
 }
 ////////////////////////////////////////////
 ////////////////////////////////////////////
-//////////  SCROLLBAR ONLOAD LOCK  /////////
-////////////////////////////////////////////
-////////////////////////////////////////////
-window.scrollTo(0, 0);
-const body = document.querySelector("body");
-setTimeout(() => {
-	body.classList.remove("lock");
-}, 3550);
-////////////////////////////////////////////
-////////////////////////////////////////////
 /////////////  NAV RESPONSIVE  /////////////
 ////////////////////////////////////////////
 ////////////////////////////////////////////
@@ -119,7 +109,7 @@ inputs.forEach(e => {
 ////////////////////////////////////////////
 //----------------------------------------//
 ////////////////////////////////////////////
-//////////////////  NAV  ///////////////////
+/////////////////  NAV BG  //////////////////
 ////////////////////////////////////////////
 const tlNav = gsap
 	.timeline({
@@ -137,72 +127,29 @@ const tlNav = gsap
 		opacity: 1,
 	});
 ////////////////////////////////////////////
-/////////////  INTRO + HEADER  /////////////
+/////////////////  HEADER  /////////////////
 ////////////////////////////////////////////
 const tl = gsap.timeline({ default: { ease: "power1.out" } });
-tl.to(".intro__char", {
-	y: 0,
-	stagger: 0.04,
-	delay: 0.1,
-	duration: 0.1,
-});
-tl.to(
-	".intro__header--h2",
-	{
-		x: 0,
-		duration: 1,
-		ease: "power2.inOut",
-		delay: 0.9,
-	},
-	"-=1"
-);
-tl.to(".intro__header--h2", {
-	opacity: 1,
-	duration: 0.3,
-	ease: "power1.inOut",
-}),
-	"-=1";
-tl.to(".intro", {
-	"--clip": "100%",
-	duration: 1,
-	delay: 0.8,
-	ease: Power2.easeInOut,
-});
 
+tl.to(".nav", { opacity: 1, duration: 1.5 });
+tl.to(".nav__socials-a", { opacity: 1, duration: 1.2 }, "-=1");
 tl.to(
-	".header__overlay",
-	{ opacity: 0, duration: 0.7, delay: 0.5, ease: Power0.easeNone },
-	"-=1"
-);
-
-tl.fromTo(".nav", { opacity: 0 }, { opacity: 1, duration: 1.5 });
-tl.fromTo(
-	".nav__socials-a",
-	{ opacity: 0 },
-	{ opacity: 1, duration: 1.2 },
-	"-=1"
-);
-tl.fromTo(
 	".header__h3",
-	{ opacity: 0, x: "-5%" },
 	{ opacity: 1, x: "0%", duration: 0.6, ease: Power2.easeInOut },
 	"-=1"
 );
-tl.fromTo(
+tl.to(
 	".header__h1",
-	{ opacity: 0, x: "-5%" },
 	{ opacity: 1, x: "0%", duration: 0.6, delay: 0.2, ease: Power2.easeInOut },
 	"-=1"
 );
-tl.fromTo(
+tl.to(
 	".header__h2",
-	{ opacity: 0, x: "-5%" },
 	{ opacity: 1, x: "0%", duration: 0.6, delay: 0.4, ease: Power2.easeInOut },
 	"-=1"
 );
-tl.fromTo(
+tl.to(
 	".header__btn",
-	{ opacity: 0, y: "60%" },
 	{ opacity: 1, y: "0%", duration: 0.7, delay: 0.2, ease: Power1.easeIn },
 	"-=1"
 );

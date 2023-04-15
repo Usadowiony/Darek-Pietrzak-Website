@@ -19,11 +19,3 @@ html {
 		}
 	}
 }
-.lock {
-	width: calc(100% - 8px);
-	overflow-y: hidden;
-	max-height: 100vh;
-	@media (hover: none) {
-		width: 100%;
-	}
-}

@@ -8,6 +8,8 @@
 	align-items: center;
 	justify-content: space-between;
 	z-index: 2;
+	///////
+	opacity: 0;
 	&__socials {
 		position: fixed;
 		bottom: 12px;
@@ -32,6 +34,8 @@
 					}
 				}
 			}
+			///////
+			opacity: 0;
 		}
 		&-instagram,
 		&-tiktok {
