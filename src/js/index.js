@@ -131,7 +131,8 @@ const tlNav = gsap
 ////////////////////////////////////////////
 const tl = gsap.timeline({ default: { ease: "power1.out" } });
 
-tl.to(".nav", { opacity: 1, duration: 1.5 });
+tl.to(".header", { opacity: 1, duration: 1 });
+tl.to(".nav", { opacity: 1, duration: 1.5, delay: 0.4 }, "-=1");
 tl.to(".nav__socials-a", { opacity: 1, duration: 1.2 }, "-=1");
 tl.to(
 	".header__h3",
