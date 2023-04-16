@@ -218,7 +218,7 @@ const tl2Close = gsap
 	})
 	.to(".about", {
 		duration: 1.3,
-		backgroundColor: "rgb(18, 19, 19)",
+		backgroundColor: "rgb(21, 22, 22)",
 	})
 	.to(".about-me", {
 		opacity: 0,
@@ -349,7 +349,7 @@ const tl4Open = gsap
 	})
 	.from(".gallery", {
 		duration: 0.6,
-		backgroundColor: "rgba(16, 17, 17, 1)",
+		backgroundColor: "rgba(21, 22, 22, 1)",
 	});
 const tl4 = gsap
 	.timeline({
@@ -380,7 +380,7 @@ const tl4Close = gsap
 	})
 	.to(".gallery", {
 		duration: 1.3,
-		backgroundColor: "rgba(16, 17, 17, 1)",
+		backgroundColor: "rgba(21, 22, 22, 1)",
 	})
 	.to(".gallery__container", {
 		opacity: 0,
