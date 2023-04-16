@@ -190,24 +190,25 @@
                 <form action="https://formsubmit.co/darekpietrzaktp@gmail.com" method="post" class="contact__form"
                     target="_blank" enctype="multipart/form-data">
                     <div class="contact__input-wrap">
-                        <input class="contact__input" autocomplete="off" name="Imię" type="text" required>
-                        <label class="contact__label">Imię</label>
+                        <input id="name" class="contact__input" autocomplete="off" name="Imię" type="text" required>
+                        <label for="name" class="contact__label">Imię</label>
                         <i class="contact__i fa-solid fa-id-card"></i>
                     </div>
                     <div class="contact__input-wrap">
-                        <input class="contact__input" autocomplete="off" name="Nazwisko" type="text" required>
-                        <label class="contact__label">Nazwisko</label>
+                        <input id="surname" class="contact__input" autocomplete="off" name="Nazwisko" type="text"
+                            required>
+                        <label for="surname" class="contact__label">Nazwisko</label>
                         <i class="contact__i fa-solid fa-id-card"></i>
                     </div>
                     <div class="contact__input-wrap contact__input-wrap--left">
-                        <input class="contact__input" autocomplete="off" name="Email" type="email" required>
-                        <label class="contact__label">Email</label>
+                        <input id="email" class="contact__input" autocomplete="off" name="Email" type="email" required>
+                        <label for="email" class="contact__label">Email</label>
                         <i class="contact__i fa-solid fa-envelope"></i>
                     </div>
                     <div class="contact__input-wrap contact__input-wrap--left">
-                        <textarea name="Wiadomość" autocomplete="off" class="contact__input contact__input--text-area"
-                            required></textarea>
-                        <label class="contact__label contact__label--text-area">Wiadomość</label>
+                        <textarea id="text" name="Wiadomość" autocomplete="off"
+                            class="contact__input contact__input--text-area" required></textarea>
+                        <label for="text" class="contact__label contact__label--text-area">Wiadomość</label>
                         <i class="contact__i contact__i--text-area fa-solid fa-inbox"></i>
                     </div>
 
