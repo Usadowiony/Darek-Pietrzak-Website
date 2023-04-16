@@ -476,20 +476,21 @@ if (window.innerWidth > 960) {
 			},
 			"-=1"
 		)
-		.from(".contact__input-wrap", {
-			x: -10,
-			opacity: 0,
-			duration: 0.3,
-			stagger: 0.2,
-		})
+		.from(
+			".contact__input-wrap",
+			{
+				x: -10,
+				opacity: 0,
+				duration: 0.6,
+			},
+			"-=1"
+		)
 		.from(
 			".contact__buttons",
 			{
 				y: 10,
 				opacity: 0,
 				duration: 0.3,
-				stagger: 0.3,
-				delay: 0.8,
 			},
 			"-=1"
 		)
