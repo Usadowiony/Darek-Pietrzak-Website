@@ -4,4 +4,14 @@
 
 body {
 	font-family: $font1;
+	animation: 1s ease-out opacityFade;
+	opacity: 1;
+	@keyframes opacityFade {
+		0% {
+			opacity: 0.3;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 }

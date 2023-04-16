@@ -9,17 +9,6 @@
 	justify-content: center;
 	flex-direction: column;
 	gap: 20px;
-	transition: opacity 3s;
-	animation: 1s ease-out 0s 1 opacityFade;
-	opacity: 1;
-	@keyframes opacityFade {
-		0% {
-			opacity: 0.3;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
 	&__overlay {
 		position: absolute;
 		width: 100%;
