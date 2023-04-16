@@ -17,7 +17,7 @@
 			grid-column: 1/2;
 			grid-row: 1/3;
 			justify-self: end;
-			background-image: url(../img/about-me__photo.jpg);
+			background-image: url(../img/medium/about-me__photo.jpg);
 			background-size: cover;
 			background-position: center;
 			aspect-ratio: 0.67/1;
@@ -491,6 +491,7 @@
 			&__photo {
 				margin-right: 30px;
 				max-height: 940px;
+				background-image: url(../img/large/about-me__photo.jpg);
 			}
 			&__text-container {
 				width: 860px;
@@ -569,6 +570,13 @@
 				&-p {
 					font-size: 1.8em;
 				}
+			}
+		}
+	}
+	@media (max-width: 510px) {
+		&-me {
+			&__photo {
+				background-image: url(../img/small/about-me__photo.jpg);
 			}
 		}
 	}

@@ -45,16 +45,16 @@
 		transition: opacity, background-size 0.5s;
 		opacity: 0;
 		&--1 {
-			background-image: url(../img/offert1.jpg);
+			background-image: url(../img/medium/offert/offert1.jpg);
 			justify-self: right;
 		}
 		&--2 {
-			background-image: url(../img/offert2.jpg);
+			background-image: url(../img/medium/offert/offert2.jpg);
 			justify-self: center;
 			background-position: top;
 		}
 		&--3 {
-			background-image: url(../img/offert3.jpg);
+			background-image: url(../img/medium/offert/offert3.jpg);
 			justify-self: left;
 		}
 		@media (hover: none) {
@@ -377,6 +377,15 @@
 		&__container {
 			height: 460px;
 			transform: translateX(-70px);
+			&--1 {
+				background-image: url(../img/small/offert/offert1.jpg);
+			}
+			&--2 {
+				background-image: url(../img/small/offert/offert2.jpg);
+			}
+			&--3 {
+				background-image: url(../img/small/offert/offert3.jpg);
+			}
 		}
 		&__content-wrapper {
 			height: 460px;
@@ -556,6 +565,15 @@
 		}
 		&__container {
 			height: 800px;
+			&--1 {
+				background-image: url(../img/large/offert/offert1.jpg);
+			}
+			&--2 {
+				background-image: url(../img/large/offert/offert2.jpg);
+			}
+			&--3 {
+				background-image: url(../img/large/offert/offert3.jpg);
+			}
 		}
 		&__content-wrapper {
 			height: 800px;

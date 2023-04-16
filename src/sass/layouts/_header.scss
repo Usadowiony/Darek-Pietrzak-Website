@@ -2,7 +2,7 @@
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: url("../img/header__bg.jpg");
+	background-image: url("../img/medium/header__bg.jpg");
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -232,6 +232,7 @@
 		}
 	}
 	@media (min-width: 2560px) {
+		background-image: url("../img/large/header__bg.jpg");
 		&__slogan-wrapper {
 			width: 860px;
 			margin-left: 300px;
@@ -286,6 +287,12 @@
 			padding: 16px 20px;
 			font-size: 2em;
 		}
+	}
+	@media (max-width: 900px) {
+		background-image: url("../img/small/header__bg.jpg");
+	}
+	@media (max-width: 900px) and (orientation: portrait) {
+		background-image: url("../img/small/header__bg--portrait.jpg");
 	}
 }
 @keyframes clickBtn {

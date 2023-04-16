@@ -165,8 +165,12 @@
 	&__img {
 		position: absolute;
 		width: 480px;
+		aspect-ratio: 57/80;
 		bottom: 0;
 		right: 9%;
+		background-image: url("../img/medium/contact__photo.png");
+		background-position: center;
+		background-size: cover;
 	}
 	@media (max-width: 1750px) {
 		padding: 100px 180px;
@@ -188,6 +192,7 @@
 		&__img {
 			width: 420px;
 			right: 8%;
+			background-image: url("../img/small/contact__photo.png");
 		}
 	}
 	@media (max-width: 1100px) {
@@ -206,6 +211,7 @@
 		padding: 100px 16%;
 		&__img {
 			display: none;
+			background-image: none;
 		}
 		&__form {
 			width: 100%;
@@ -399,6 +405,7 @@
 		&__img {
 			width: 720px;
 			right: 11%;
+			background-image: url("../img/large/contact__photo.png");
 		}
 	}
 	@media (min-width: 3840px) {
