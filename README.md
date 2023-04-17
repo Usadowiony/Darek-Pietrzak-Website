@@ -35,10 +35,6 @@ Thanks to this project I learned how to make great animations thanks to <a href=
 
 ## 💼 Contact
 
-<<<<<<< HEAD
-<p align="left">
-=======
->>>>>>> f95d30ea770016e9428f70f95f63222855584fbc
 <a href="https://www.linkedin.com/in/wojciech-pietrzak-238a25262/"><img height="13" src="src/img/github/linkedin.svg"/> Linkedin - Wojciech Pietrzak</a>
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
